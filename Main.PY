@@ -1,10 +1,14 @@
-number = int(input("Enter a number to check if it is positive or negative: "))
-print (f"Number to be checked{number}")
+class Rectangle():
 
-if number >0:
-    print("This is positive")
-elif number<0:
-    print("This is negative")
+    def __init__(self, l, w):
+        self.l = l
+        self.w = w
+        
+    def Rectangle_Area(self):
+        return self.l * self.w
+    
+l = int(input("Enter the length of a Rectangle"))
+w = int(input("Enter the width of a Rectangle"))
 
-else:
-    print("This is 0")
+NewRectangle = Rectangle(l, w)
+print(f"the area of the rectangle is {NewRectangle.Rectangle_Area()}")
