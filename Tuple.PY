@@ -1,0 +1,8 @@
+my_tup = ()
+print(my_tup)
+my_tup1 = (1, 2, 3, 4, 5)
+my_tup2 = ( 1, 4, 7, 3.14, 'Coding', True, False, [5, 6, 7, 8, 9])
+print(my_tup1)
+print(my_tup2)
+print(my_tup2[0])
+print(my_tup2[7])

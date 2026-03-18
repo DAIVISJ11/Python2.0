@@ -1,14 +1,15 @@
-class Rectangle():
+my_dict = {}
 
-    def __init__(self, l, w):
-        self.l = l
-        self.w = w
-        
-    def Rectangle_Area(self):
-        return self.l * self.w
-    
-l = int(input("Enter the length of a Rectangle"))
-w = int(input("Enter the width of a Rectangle"))
+my_dict1 = {5 : 'apples', 6 : 'students', 9 : 'pencils'}
 
-NewRectangle = Rectangle(l, w)
-print(f"the area of the rectangle is {NewRectangle.Rectangle_Area()}")
+my_dict2 = {'Name' : 'Davis', 'student' : True, 'Teacher' : False, 'list' : [1, 2, 3, 4, 5]}
+print(my_dict1)
+print(my_dict2)
+print(my_dict2.values())
+print(my_dict2.keys())
+
+my_dict['age'] = 27
+print(my_dict)
+
+my_dict2.pop('student')
+print(my_dict2)
