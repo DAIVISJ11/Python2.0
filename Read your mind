@@ -1,0 +1,15 @@
+my_dict = {}
+
+Lucas = {'Name' : 'Lucas', 'Student': True, 'Age' : 10,}
+Rehaan = {'Name' : 'Rehaan', 'Student': True, 'Age' : 10,}
+Teddy = {'Name' : 'Teddy',  'Student': True, 'Age' : 10, }
+Jimmy = {'Name' : 'Jimmy', 'student' : True, 'Teacher' : False, 'Age' : 10}
+print(Lucas)
+print(Jimmy)
+print(Rehaan)
+print(Teddy)
+
+
+my_dict['age'] = 27
+print(my_dict)
+
